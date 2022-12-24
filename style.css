@@ -1,0 +1,44 @@
+body {
+    background-image: url('ha.jpg');
+    background-size: 600px;
+    overflow: hidden;
+}
+button{
+    position: absolute;
+    left: 40%;
+    
+    font-weight: bold;
+    transform:  translate3d(-50%, -50%);
+    border:  none;
+    color: rgba(254, 11, 11, 0.936);
+    background-color: beige;
+    padding: 10px 50px;
+    font-family:  monospace;
+    font-size: 40px;
+    box-shadow: 30px;
+}
+#container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+@keyframes move{
+    0%{
+        opacity: 0;
+        transform:  translateY(0);
+    }10%{
+        opacity: 1;
+    }90%{
+        opacity: 1;
+    }100%{
+        opacity: 0;
+        transform: translateY(50vh);
+    }
+}
+audio {
+    margin-left: 1%;
+    margin-top: 40%;
+    width: 100px;
+}
